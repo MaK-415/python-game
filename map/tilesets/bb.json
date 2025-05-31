@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"tilemap-backgrounds_packed.png",
+ "imageheight":72,
+ "imagewidth":192,
+ "margin":0,
+ "name":"bb",
+ "spacing":0,
+ "tilecount":40,
+ "tiledversion":"1.11.2",
+ "tileheight":18,
+ "tilewidth":18,
+ "type":"tileset",
+ "version":"1.10"
+}

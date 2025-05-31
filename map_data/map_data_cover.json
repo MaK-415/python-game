@@ -1,0 +1,29 @@
+{
+    "all_level": "4",
+    "now_level": "1",
+    "map1": {
+        "clear": "False",
+        "need_coin": "2",
+        "lock": "False",
+        "boss": "False"
+    },
+    "map2": {
+        "clear": "False",
+        "need_coin": "4",
+        "lock": "True",
+        "boss": "False"
+    },
+    "map3": {
+        "clear": "False",
+        "need_coin": "5",
+        "lock": "True",
+        "boss": "False"
+    },
+    "map4": {
+        "clear": "False",
+        "need_coin": "7",
+        "lock": "True",
+        "boss": "True"
+    },
+    "member_list": "False"
+}
