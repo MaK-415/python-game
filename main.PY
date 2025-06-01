@@ -512,7 +512,7 @@ class End(pygame.sprite.Sprite):  #定義一個遊戲中的「終點」
                 map_key = f"map{open_level}" 
                 if map_key in map_data:
                     map_data[map_key]["lock"] = "False" #開啟下一關
-                    with open('map/map_data.json', 'w', encoding='utf-8') as f:
+                    with open('map_data/map_data.json', 'w', encoding='utf-8') as f:
                         json.dump(map_data, f, ensure_ascii=False, indent=4)
             player.won = True #過關
                        
