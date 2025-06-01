@@ -837,6 +837,7 @@ while running:#遊戲迴圈 當遊戲開啟
     elif keyboard:
         screen.blit(keyboard_img, (0,0))
         draw_text(screen, '※當你按資料重置時，你的過關資訊會直接被刪除!!!', 30, WIDTH/2, HEIGHT*8/9, WHITE)
+        draw_text(screen, '蒐集足夠金幣，然後走到終點吧!', 50, WIDTH/2, HEIGHT*1/12, WHITE)
         draw_text(screen, '按空白鍵繼續', 30, WIDTH/2, HEIGHT*3/4, WHITE)
         key_pressed = pygame.key.get_pressed()
         if key_pressed[pygame.K_SPACE]:
