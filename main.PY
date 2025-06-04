@@ -146,7 +146,7 @@ def load_map(map):
             if i["type"] == "objectgroup": #存物件層
                 object_layer.append(i)
         for i in map_data["tilesets"]: #帶入map{map}.json的tilesets 用到的圖塊集 ex:aa.json
-            image = pygame.image.load(f"map/{i["image"]}")  #載入圖塊集圖片
+            image = pygame.image.load(f"map/{i['image']}")  #載入圖塊集圖片
             tilesets.append({                   
                 "image": image,
                 "firstgid": i["firstgid"],  # 該tileset 的起始 GID
@@ -464,7 +464,6 @@ class Button(pygame.sprite.Sprite): #定義一個遊戲中的「按鈕」
             else:
                 self.image = self.unlock_img
         # 偵測是否點擊按鈕
-
         if self.rect.collidepoint(pos) and not self.clicked: #如果碰到鼠標且沒再按
             if pygame.mouse.get_pressed()[0] == 1: #按左鍵
                     if self.type == "game": #是關卡
